@@ -1,0 +1,61 @@
+.colorModeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+  height: 100dvh;
+  min-height: 500px;
+}
+.colorModeContainer #lotfi {
+  max-width: 200px;
+}
+.colorModeContainer span {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+.colorModeContainer a {
+  margin: 0 auto;
+}
+.colorModeContainer img {
+  width: 40px;
+}
+.colorModeContainer button {
+  background-color: var(--btn-color);
+  color: var(--btn-text-color);
+  border: none;
+  border-radius: 20px;
+  width: 126px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
+}
+.colorModeContainer button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+}
+.colorModeContainer{
+      position: relative;
+
+}
+.colorMode{
+      position: relative;
+      right: 0;
+      width: 25px;
+
+}
+.colorMode:hover{
+      cursor: pointer;
+}
+.description {
+      align-self: center;
+}
+.info{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 20px;
+}
