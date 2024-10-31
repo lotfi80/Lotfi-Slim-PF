@@ -1,13 +1,19 @@
 
 import './App.css'
 import Lotfi from './sections/lotfi/Lotfi'
-
+import Projects from './sections/Projects/Projects'
 function App() {
 
   return (
-    <div>
+    <>
+    <div className='bigContainer'>
       <Lotfi />
+    
+            <Projects />
+
     </div>
+      
+    </>
   )
 }
 

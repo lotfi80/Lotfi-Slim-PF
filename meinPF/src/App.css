@@ -66,3 +66,8 @@ p{
 .hover{
       cursor: pointer;
 }
+.bigContainer{
+      display: flex;
+      flex-direction: column;
+      gap: 60px;
+}

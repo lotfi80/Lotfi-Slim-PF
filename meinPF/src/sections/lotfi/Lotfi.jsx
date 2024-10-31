@@ -15,9 +15,9 @@ import { useTheme } from "../../common/ThemeContext";
 function Lotfi() {
   const { theme, toggleTheme } = useTheme();
   const themeIcon = theme === "light" ? lightMode : darkMode;
-  const twitterIcon = theme === "light" ? twitterLight : twitterDark;
-  const linkedinIcon = theme === "light" ? linkedinLight : linkedinDark;
-  const gitHubIcon = theme === "light" ? gitHubLight :gitHubDark ;
+  const twitterIcon = theme === "light" ?  twitterDark: twitterLight;
+  const linkedinIcon = theme === "light" ?  linkedinDark:linkedinLight ;
+  const gitHubIcon = theme === "light" ?  gitHubDark:gitHubLight ;
 
   return (
     <section id="lotfi" className={styles.colorModeContainer}>
@@ -37,7 +37,7 @@ function Lotfi() {
           <br />
           Slim
         </h1>
-        <h2>Frontend Developper</h2>
+        <h2>FullStack Developper</h2>
         <span>
           <a href="https://www.linkedin.com/in/lotfi-slim-de/" target="_blank">
             <img

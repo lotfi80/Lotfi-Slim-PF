@@ -10,11 +10,7 @@
 .colorModeContainer #lotfi {
   max-width: 200px;
 }
-.colorModeContainer span {
-  display: flex;
-  gap: 25px;
-  justify-content: center;
-}
+
 .colorModeContainer a {
   margin: 0 auto;
 }
@@ -22,12 +18,16 @@
   width: 40px;
 }
 .colorModeIconBG {
-      width: 40px;
-      position: absolute;
-      right: 100px;
-      top: 350px;
-
-    }
+  width: 40px;
+  position: absolute;
+  right: 80px;
+  top: 350px;
+}
+.colorModeContainer span {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
 .colorModeContainer button {
   background-color: var(--btn-color);
   color: var(--btn-text-color);
@@ -44,30 +44,28 @@
   transform: scale(1.05);
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
 }
-.colorModeContainer{
-      position: relative;
-
+.colorModeContainer {
+  position: relative;
 }
-.colorMode{
-   
-      width: 250px;
-      height: 250px;
-      margin-left: 20%;
-      border-radius: 50%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-
+.colorMode {
+  width: 250px;
+  height: 250px;
+  margin-left: 5%;
+  margin-top: 10%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.colorMode:hover{
-      cursor: pointer;
+.colorMode:hover {
+  cursor: pointer;
 }
 .description {
-      align-self: center;
+  align-self: center;
 }
-.info{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      gap: 30px;
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
 }
