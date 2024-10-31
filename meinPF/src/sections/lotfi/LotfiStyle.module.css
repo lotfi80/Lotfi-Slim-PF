@@ -20,7 +20,7 @@
 .colorModeIconBG {
   width: 40px;
   position: absolute;
-  right: 80px;
+  right: -20px;
   top: 350px;
 }
 .colorModeContainer span {
@@ -62,10 +62,31 @@
 }
 .description {
   align-self: center;
+  text-align: justify;
+  padding-left: 2em;
+  margin: 0;
 }
 .info {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 30px;
+}
+@media (width >= 768px) {
+  .colorModeContainer {
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .colorModeContainer #lotfi {
+    max-width: 350px;
+    width: 350px;
+  }
+}
+
+@media (width >= 1400px) {
+  .colorModeContainer #lotfi {
+    max-width: 400px;
+    width: 400px;
+  }
 }

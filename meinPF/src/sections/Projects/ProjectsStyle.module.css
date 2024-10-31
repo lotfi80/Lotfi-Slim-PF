@@ -21,3 +21,14 @@ a {
     align-items: center;
       gap: 20px;
 }
+
+    
+    @media (width >= 768px) {
+      .projectContainer {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 0 30px;
+      }
+    }
+    

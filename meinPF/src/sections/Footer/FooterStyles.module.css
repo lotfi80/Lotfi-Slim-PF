@@ -1,0 +1,9 @@
+.container{
+      display: flex;
+      color: var(--text-color);
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      margin-top: 50px;
+}

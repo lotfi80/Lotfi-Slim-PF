@@ -56,9 +56,11 @@ function Lotfi() {
           </a>
         </span>
         <p className="description">
-          with a passion for developping modern React web apps for commercial
-          business
-        </p>
+  Building high-performance React web apps<br />
+  that boost engagement and streamline<br />
+  operations for commercial businesses.
+</p>
+
         <a href={CV} download>
           <button className="hover">Resume</button>
         </a>
