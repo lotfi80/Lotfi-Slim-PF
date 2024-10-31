@@ -27,7 +27,9 @@ function Lotfi() {
           src={lotfiImg}
           alt="Profile picture of Lotfi Slim"
         />
-        <img src={themeIcon} alt="color mode icon" onClick={toggleTheme} />
+        <img 
+        className={styles.colorModeIconBG}
+        src={themeIcon} alt="color mode icon" onClick={toggleTheme} />
       </div>
       <div className={styles.info}>
         <h1>
@@ -38,13 +40,19 @@ function Lotfi() {
         <h2>Frontend Developper</h2>
         <span>
           <a href="https://www.linkedin.com/in/lotfi-slim-de/" target="_blank">
-            <img src={linkedinIcon} alt="" />
+            <img
+            className={styles.colorModeIcon} 
+            src={linkedinIcon} alt="" />
           </a>
           <a href="https://github.com/lotfi80" target="_blank">
-            <img src={gitHubIcon} alt="" />
+            <img 
+            className={styles.colorModeIcon}
+            src={gitHubIcon} alt="" />
           </a>
           <a href="https://www.linkedin.com/in/lotfi-slim-de/" target="_blank">
-            <img src={twitterIcon} alt="" />
+            <img 
+            className={styles.colorModeIcon}
+            src={twitterIcon} alt="" />
           </a>
         </span>
         <p className="description">

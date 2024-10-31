@@ -18,9 +18,16 @@
 .colorModeContainer a {
   margin: 0 auto;
 }
-.colorModeContainer img {
+.colorModeIcon {
   width: 40px;
 }
+.colorModeIconBG {
+      width: 40px;
+      position: absolute;
+      right: 100px;
+      top: 350px;
+
+    }
 .colorModeContainer button {
   background-color: var(--btn-color);
   color: var(--btn-text-color);
@@ -42,9 +49,14 @@
 
 }
 .colorMode{
-      position: relative;
-      right: 0;
-      width: 25px;
+   
+      width: 250px;
+      height: 250px;
+      margin-left: 20%;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
 
 }
 .colorMode:hover{
@@ -57,5 +69,5 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      gap: 20px;
+      gap: 30px;
 }
