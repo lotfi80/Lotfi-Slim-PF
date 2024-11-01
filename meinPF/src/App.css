@@ -71,6 +71,13 @@ p{
       flex-direction: column;
       gap: 60px;
 }
+img {
+      max-width: 250px;
+      width: 250px;
+      align-self: center;
+      background-color: var(--project-card-bg);
+      border-radius: 20px;
+    }
 @media(width >= 768px){
       :root{
             gap: 100px;

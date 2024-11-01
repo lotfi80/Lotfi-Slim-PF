@@ -9,7 +9,7 @@ import linkedinDark from "../../assets/linkedinDark.svg";
 import gitHubDark from "../../assets/githubDark.svg";
 import gitHubLight from "../../assets/githubLight.svg";
 import linkedinLight from "../../assets/linkedinLight.svg";
-import CV from "../../assets/CV.pdf";
+import EnglishCV from "../../assets/EnglishCV.pdf";
 import { useTheme } from "../../common/ThemeContext";
 
 function Lotfi() {
@@ -60,10 +60,18 @@ function Lotfi() {
   that boost engagement and streamline<br />
   operations for commercial businesses.
 </p>
-
-        <a href={CV} download>
+  <div>
+    <a href={EnglishCV} download>
           <button className="hover">Resume</button>
         </a>
+        <a href={EnglishCV} download>
+          <button className="hover">Resume</button>
+        </a>
+        <a href={EnglishCV} download>
+          <button className="hover">Resume</button>
+        </a>
+  </div>
+        
       </div>
     </section>
   );
