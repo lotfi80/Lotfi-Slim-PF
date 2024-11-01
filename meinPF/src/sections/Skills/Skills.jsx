@@ -18,7 +18,8 @@ function Skills() {
 
            <SkillList src={checkMarkIcon} skill="TypeScript" />
 
-           <SkillList src={checkMarkIcon} skill="Node" />
+           <SkillList src={checkMarkIcon} skill="Tailwind CSS" />
+           <SkillList src={checkMarkIcon} skill="Sass/SCSS " />
 
 
       </div>
@@ -26,25 +27,25 @@ function Skills() {
       <div
       className={styles.skillList}>
            <SkillList src={checkMarkIcon} skill="React" />
-           <SkillList src={checkMarkIcon} skill="ExpressJS" />
+           <SkillList src={checkMarkIcon} skill="React Router
+" />
 
-           <SkillList src={checkMarkIcon} skill="MangoDB" />
+           <SkillList src={checkMarkIcon} skill="Responsive Design" />
 
-           <SkillList src={checkMarkIcon} skill="Tailwind.CSS" />
-
-           <SkillList src={checkMarkIcon} skill="Git" />
+          
 
 
       </div>
       <hr />
       <div
       className={styles.skillList}>
-           <SkillList src={checkMarkIcon} skill="React" />
+           <SkillList src={checkMarkIcon} skill="Node.js
+" />
            <SkillList src={checkMarkIcon} skill="ExpressJS" />
 
            <SkillList src={checkMarkIcon} skill="MangoDB" />
 
-           <SkillList src={checkMarkIcon} skill="Tailwind.CSS" />
+           <SkillList src={checkMarkIcon} skill="Mongoose" />
 
            <SkillList src={checkMarkIcon} skill="Git" />
 

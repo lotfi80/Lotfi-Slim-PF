@@ -1,9 +1,35 @@
-.container{
+.container {
       display: flex;
-      color: var(--text-color);
+      justify-content: space-around;
+      padding: 20px;
+      text-align: left;
+      
+    }
+    
+    .section {
+      display: flex;
       flex-direction: column;
-      text-align: center;
+      align-items: flex-start;
+      margin: 10px;
+    }
+    
+    .iconText {
+      display: flex;
       align-items: center;
-      justify-content: center;
-      margin-top: 50px;
+      margin-top: 8px;
+      color: var(--text-color);
+
+    }
+    
+    .iconText svg {
+      margin-right: 8px;
+      color: var(--text-color);
+    }
+    
+@media screen and (width >= 768px) {
+      .container {
+            flex-direction: row;
+            justify-content: space-evenly;
+            gap: 50px;
+      }
 }
