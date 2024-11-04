@@ -1,34 +1,50 @@
 import styles from "./ContactStyles.module.css";
+import { useTranslation } from 'react-i18next';
 
 function Contact() {
+  const { t } = useTranslation();
+
   return (
     <section id="contact" className={styles.container}>
-      <h1 className="sectionTitle">Contact</h1>
-      <form
-  action="https://formspree.io/f/xqakpqgb" // Ersetze xyz123 durch deine eigene Formspree-Formular-ID
-  method="POST"
->
-  <div className="formGroup">
-    <label htmlFor="name" hidden>
-      Name
-    </label>
-    <input type="text" name="name" id="name" placeholder="Name" required />
-  </div>
-  <div className="formGroup">
-    <label htmlFor="email" hidden>
-      Email
-    </label>
-    <input type="email" name="email" id="email" placeholder="Email" required />
-  </div>
-  <div className="formGroup">
-    <label htmlFor="message" hidden>
-      Message
-    </label>
-    <textarea name="message" id="message" placeholder="Message" required></textarea>
-  </div>
-  <input className="hover btn" type="submit" value="submit" />
-</form>
-
+      <h1 className="sectionTitle">{t('contact')}</h1> {/* Übersetzung hier */}
+      <form action="https://formspree.io/f/xqakpqgb" method="POST">
+        <div className="formGroup">
+          <label htmlFor="name" hidden>
+            {t('placeholder.name')} {/* Placeholder-Übersetzung */}
+          </label>
+          <input 
+            type="text" 
+            name="name" 
+            id="name" 
+            placeholder={t('placeholder.name')} 
+            required 
+          />
+        </div>
+        <div className="formGroup">
+          <label htmlFor="email" hidden>
+            {t('placeholder.email')}
+          </label>
+          <input 
+            type="email" 
+            name="email" 
+            id="email" 
+            placeholder={t('placeholder.email')} 
+            required 
+          />
+        </div>
+        <div className="formGroup">
+          <label htmlFor="message" hidden>
+            {t('placeholder.message')}
+          </label>
+          <textarea 
+            name="message" 
+            id="message" 
+            placeholder={t('placeholder.message')} 
+            required 
+          />
+        </div>
+        <input className="hover btn" type="submit" value={t('submit')} />
+      </form>
     </section>
   );
 }

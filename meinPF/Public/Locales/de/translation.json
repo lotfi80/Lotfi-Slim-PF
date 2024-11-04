@@ -1,13 +1,27 @@
 {
       "projects": "Projekte",
       "beMyEye": "BeMyEye",
-      "shopApp": "Shop-App",
-      "canvasGame": "Canvas-Spiel",
-      "hoursTracker": "Beste App zur Erfassung deiner Arbeitsstunden",
-      "Building high-performance React web apps": "Hochleistungsfähige React-Webanwendungen erstellen",
-      "that boost engagement and streamline": "die Engagement erhöhen und optimieren",
-      "operations for commercial businesses.": "Betrieb für kommerzielle Unternehmen.",
-      "ADRESS ":"ADRESSE"
+      "shopApp": "Shop App für Schnäppchen",
+      "canvasGame": "Canvas Spiel",
+      "HoursTracker" :"Zeit erfassubg",
+
+      "hoursTracker": "Beste App zur Verfolgung Ihrer Arbeitszeiten",
+      "highPerformanceReactApps": "Erstellung leistungsstarker React-Anwendungen",
+      "userEngagement": "die das Benutzerengagement verbessern und optimieren",
+      "operations": "Betrieb für kommerzielle Unternehmen.",
+      "intuitiveDesign": "Mein Fokus liegt auf intuitivem Design und Effizienz",
+      "thrive": "hilft Unternehmen, in einem wettbewerbsintensiven Umfeld erfolgreich zu sein.",
+      "AddressLuxembourg": "Addresse in Luxembourg",
+      "AddressGermany": "Addresse in Deutschland",
+      "contact": "Kontakt",
+      "placeholder": {
+        "name": "Name",
+        "email": "E-Mail",
+        "message": "Nachricht"
+      },
+      "submit": "Einreichen"
     }
+    
+    
     
     

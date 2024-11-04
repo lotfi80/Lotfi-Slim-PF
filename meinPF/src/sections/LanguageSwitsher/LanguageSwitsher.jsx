@@ -2,6 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import "flag-icons/css/flag-icons.min.css";
 import styles from "./languageSwitcher.module.css";
+// import MyLogo from "../../assets/LotfiSlimLogo2.png";
 
 const LanguageSwitcher = () => {
   const { i18n } = useTranslation();
@@ -11,7 +12,11 @@ const LanguageSwitcher = () => {
   };
 
   return (
-    <div className={styles.languageSwitcher}>
+    <div className={styles.bigcontainer}>
+      {/* <div  >
+        <img src={MyLogo} alt="" />
+      </div> */}
+ <div className={styles.languageSwitcher}>
       <div className={styles.flagContainer}>
         <span
           className={`${styles.flagIcon} fi fi-gb`}
@@ -30,6 +35,9 @@ const LanguageSwitcher = () => {
         ></span>
       </div>
     </div>
+
+    </div>
+   
   );
 };
 
