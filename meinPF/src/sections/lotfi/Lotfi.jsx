@@ -41,7 +41,7 @@ function Lotfi() {
     if (currentLanguage === "de") {
       return "Lebenslauf herunterladen";
     } else if (currentLanguage === "fr") {
-      return "Télécharger CV Français";
+      return "Télécharger CV ";
     } else {
       return "Download CV";
     }

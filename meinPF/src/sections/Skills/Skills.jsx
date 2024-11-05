@@ -27,7 +27,7 @@ function Skills() {
       <hr />
       <div
       className={styles.skillList}>
-           <SkillList src={checkMarkIcon} skill="React" />
+           <SkillList src={checkMarkIcon} skill="ReactJS" />
            <SkillList src={checkMarkIcon} skill="React Router
 " />
 
