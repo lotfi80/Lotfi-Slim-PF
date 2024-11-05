@@ -1,25 +1,29 @@
 {
-      "projects": "Projects",
-      "beMyEye": "BeMyEye",
-      "shopApp": "Shop App for teh best Deals",
-      "canvasGame": "Canvas Game",
-      "HoursTracker" :"Suivi des heures",
-
-      "hoursTracker": "Best App to track your working hours",
-      "highPerformanceReactApps": "Creating high-performance React applications",
-      "userEngagement": "that enhance user engagement and optimize",
-      "operations": "operations for commercial businesses.",
-      "intuitiveDesign": "My focus on intuitive design and efficiency",
-      "thrive": "helps companies thrive in a competitive landscape.",
-      "AddressLuxembourg": "Address in Luxembourg",
-      "AddressGermany": "Address in Germany",
-      "contact": "Contact",
-      "placeholder": {
-        "name": "Name",
-        "email": "Email",
-        "message": "Message"
-      },
-      "submit": "Submit"
-    }
-    
-    
+  "projects": "Projects",
+  "beMyEye": "BeMyEye",
+  "shopApp": "Shop App for the Best Deals",
+  "canvasGame": "Canvas Game",
+  "HoursTracker": "Hours Tracker",  
+  "hoursTracker": "Best app to track your working hours",
+  "highPerformanceReactApps": "Close to the realities of companies aiming to optimize their results,",
+  "userEngagement": "I develop intuitive React applications that enhance user engagement",
+  "operations": "and streamline the product marketing process.",
+  "intuitiveDesign": "While I am independent, I enjoy working in a team,",
+  "thrive": "drawing critical insights and inspiration from human interactions to build innovative projects.",
+  "Communication": "Communication",
+  "Teamwork": "Teamwork",
+  "Adaptability": "Adaptability",
+  "Problem-solving": "Problem-solving",
+  "Time management": "Time management",
+  "Creativity": "Creativity",
+  "Decisiveness": "Decision-making",
+  "AddressLuxembourg": "Address in Luxembourg",
+  "AddressGermany": "Address in Germany",
+  "contact": "Contact",
+  "placeholder": {
+    "name": "Name",
+    "email": "Email",
+    "message": "Message"
+  },
+  "submit": "Submit"
+}

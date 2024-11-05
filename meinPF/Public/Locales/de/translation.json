@@ -1,26 +1,35 @@
 {
-      "projects": "Projekte",
-      "beMyEye": "BeMyEye",
-      "shopApp": "Shop App für Schnäppchen",
-      "canvasGame": "Canvas Spiel",
-      "HoursTracker" :"Zeit erfassubg",
+  "projects": "Projekte",
+  "beMyEye": "BeMyEye",
+  "shopApp": "Shop-App für die besten Angebote",
+  "canvasGame": "Canvas-Spiel",
+  "HoursTracker": "Stundentracker",
+  
+  "hoursTracker": "Beste App, um Ihre Arbeitsstunden zu verfolgen",
+  "highPerformanceReactApps": "Nah an den Realitäten von Unternehmen, die ihre Ergebnisse optimieren möchten,",
+  "userEngagement": "entwickle ich intuitive React-Anwendungen, die das Benutzerengagement erhöhen",
+  "operations": "und den Produktmarketingprozess optimieren.",
+  "intuitiveDesign": "Obwohl ich unabhängig arbeite, schätze ich die Arbeit im Team,",
+  "thrive": "wo ich kritische Einblicke und Inspiration aus menschlichen Interaktionen ziehe, um innovative Projekte zu realisieren.",
+  "Communication": "Kommunikation",
+  "Teamwork": "Teamfähigkeit",
+  "Adaptability": "Anpassungsfähigkeit",
+  "Problem-solving": "Problemlösungsfähigkeit",
+  "Time management": "Zeitmanagement",
+  "Creativity": "Kreativität",
+  "Decisiveness": "Entscheidungsfreudigkeit",
+  "AddressLuxembourg": "Adresse in Luxemburg",
+  "AddressGermany": "Adresse in Deutschland",
+  "contact": "Kontakt",
+  "placeholder": {
+    "name": "Name",
+    "email": "E-Mail",
+    "message": "Nachricht"
+  },
+  "submit": "Absenden"
+}
 
-      "hoursTracker": "Beste App zur Verfolgung Ihrer Arbeitszeiten",
-      "highPerformanceReactApps": "Erstellung leistungsstarker React-Anwendungen",
-      "userEngagement": "die das Benutzerengagement verbessern und optimieren",
-      "operations": "Betrieb für kommerzielle Unternehmen.",
-      "intuitiveDesign": "Mein Fokus liegt auf intuitivem Design und Effizienz",
-      "thrive": "hilft Unternehmen, in einem wettbewerbsintensiven Umfeld erfolgreich zu sein.",
-      "AddressLuxembourg": "Addresse in Luxembourg",
-      "AddressGermany": "Addresse in Deutschland",
-      "contact": "Kontakt",
-      "placeholder": {
-        "name": "Name",
-        "email": "E-Mail",
-        "message": "Nachricht"
-      },
-      "submit": "Einreichen"
-    }
+
     
     
     

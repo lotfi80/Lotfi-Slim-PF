@@ -5,6 +5,7 @@ import Footer from "./sections/Footer/Footer";
 import Lotfi from "./sections/lotfi/Lotfi";
 import Projects from "./sections/Projects/Projects";
 import Skills from "./sections/Skills/Skills";
+import SoftSkills from "./sections/Skills/SoftSkills";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Lotfi />
         <Projects />
         <Skills />
+        <SoftSkills/>
         <Contact />
         <Footer />
       </div>

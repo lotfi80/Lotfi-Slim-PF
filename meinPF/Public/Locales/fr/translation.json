@@ -1,15 +1,23 @@
 {
   "projects": "Projets",
   "beMyEye": "BeMyEye",
-  "shopApp": "shopApp pour les bonnes affaires",
-  "canvasGame": "Jeu en toile",
-  "HoursTracker" :"Suivi des heures",
-  "hoursTracker": "Meilleure application pour  suivre vos heures de travail",
-  "highPerformanceReactApps": "Création d'applications React haute performance",
-  "userEngagement": "qui améliorent l'engagement des utilisateurs et l'optimisent",
-  "operations": "les opérations pour les entreprises commerciales.",
-  "intuitiveDesign": "Mon accent est mis sur un design intuitif et l'efficacité.",
-  "thrive": "aide les entreprises à réussir dans un environnement concurrentiel.",
+  "shopApp": "Application pour les meilleures offres",
+  "canvasGame": "Jeu sur Canvas",
+  "HoursTracker": "Hours Tracker",
+  
+  "hoursTracker": " Application pour suivre vos heures de travail",
+  "highPerformanceReactApps": "Au plus près des réalités des entreprises souhaitant optimiser leurs résultats,",
+  "userEngagement": "je développe des applications React intuitives qui améliorent l'engagement des utilisateurs",
+  "operations": "et optimisent le processus de commercialisation des produits",
+  "intuitiveDesign": "Bien que je sois autonome, j'aime travailler en équipe,",
+  "thrive": " tirant des relations humaines critiques et inspirations qui aident à la construction de projets innovants.",
+  "Communication": "Communication",
+  "Teamwork": "Travail d'équipe",
+  "Adaptability": "Adaptabilité",
+  "Problem-solving": "Résolution de problèmes",
+  "Time management": "Gestion du temps",
+  "Creativity": "Créativité",
+  "Decisiveness": " Prise de décisions",
   "AddressLuxembourg": "Adresse au Luxembourg",
   "AddressGermany": "Adresse en Allemagne",
   "contact": "Contact",
@@ -20,6 +28,8 @@
   },
   "submit": "Envoyer"
 }
+
+
 
 
     

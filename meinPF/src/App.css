@@ -47,6 +47,13 @@ h2,h3, p{
 h1,h2{
       text-transform: uppercase;
 }
+.name{
+      text-transform: none;
+      display: inline;
+     
+
+
+}
 h2,h3 {
       font-size: 20px;
 }
