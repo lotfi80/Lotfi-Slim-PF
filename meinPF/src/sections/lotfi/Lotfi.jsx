@@ -122,7 +122,6 @@ function Lotfi() {
         <div>
           <a href={getCVLink()} download>
             <button className="hover">{getCVButtonText()}</button>{" "}
-            {/* Dynamischer Button-Text */}
           </a>
         </div>
       </div>
