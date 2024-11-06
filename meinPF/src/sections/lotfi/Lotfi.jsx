@@ -20,7 +20,7 @@ import { useTranslation } from "react-i18next";
 function Lotfi() {
   const { t, i18n } = useTranslation();
   const { theme, toggleTheme } = useTheme();
-  const themeIcon = theme === "light" ? lightMode : darkMode;
+  const themeIcon = theme === "light" ? darkMode :lightMode ;
   const twitterIcon = theme === "light" ? twitterDark : twitterLight;
   const linkedinIcon = theme === "light" ? linkedinDark : linkedinLight;
   const gitHubIcon = theme === "light" ? gitHubDark : gitHubLight;
@@ -70,7 +70,7 @@ function Lotfi() {
         <h1>
           <span class="name">Lotfi</span> Slim
         </h1>
-        <h2>FullStack Developper</h2>
+        <h2>Junior FullStack Developper</h2>
         <span>
           <a
             href="https://www.linkedin.com/in/lotfi-slim-de/"
@@ -106,7 +106,8 @@ function Lotfi() {
             />
           </a>
         </span>
-        <p className="description">
+        <div className="descriptionContainer">
+            <p className={styles.description}>
           {t("highPerformanceReactApps")}
 
           {t("userEngagement")}
@@ -118,6 +119,8 @@ function Lotfi() {
 
           {t("thrive")}
         </p>
+        </div>
+      
 
         <div>
           <a href={getCVLink()} download>

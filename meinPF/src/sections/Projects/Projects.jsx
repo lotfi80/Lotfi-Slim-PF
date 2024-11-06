@@ -17,22 +17,30 @@ function Projects() {
         <ProjectCard
           src={beMyEye}
           link="https://github.com/lotfi80/BeMyEye-"
-          h3={t('beMyEye')}
+          h3='beMyEye'
           p={t('shopApp')}
         />
         <ProjectCard
           src={canvasGame}
           link="https://github.com/lotfi80/Final-project-Game-canvas-OOP"
-          h3={t('canvasGame')}
+          h3='canvasGame'
           p={t('canvasGame')}
         />
-        <ProjectCard
+        <div>
+          <ProjectCard
           src={hoursTracker}
           link="https://github.com/lotfi80/hourTracker"
-          h3={t('HoursTracker')}
+          h3='Hours Tracker'
           p={t('hoursTracker')}
         />
-      </div>
+        <div   >
+          <h4>link to the page </h4>
+
+        
+        <a  href="https://zeiterfassung-v5.onrender.com"><span>click here</span></a>
+        </div></div>
+        </div>
+        
     </section>
   );
 }

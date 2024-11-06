@@ -17,10 +17,13 @@
   border-radius: 50%;
   margin-top: 30px;
   margin-left: 15px;
+  
 }
+
 
 .colorModeContainer #lotfi {
   max-width: 200px;
+  
 }
 
 .colorModeContainer a {
@@ -37,12 +40,14 @@
   width: 40px;
   height: 40px;
   position: absolute;
-  right: -25px;
-  top: 350px;
+  right: 5px;
+  top: 450px;
   border-radius: 50%;
   background-color: white;
   animation: colorChange 4s infinite ease-in-out;
+  cursor: pointer;
 }
+
 
 @keyframes colorChange {
   0%, 100% { background-color: rgb(140, 140, 136); color: var(--text-color); }
@@ -87,11 +92,14 @@
 
 .description {
   align-self: center;
-  text-align: justify;
+  text-align: left;
   padding-left: 2em;
   margin: 0;
   max-width: 600px; 
+  border-radius: 20px;
+  box-shadow: 0 4px 4px var(--text-color);
 }
+
 
 .info {
   display: flex;
@@ -115,6 +123,7 @@
   }
   .colorModeIconBG {
     right: 5px;
+    top: 360px;
   }
  
   

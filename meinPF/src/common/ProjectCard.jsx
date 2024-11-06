@@ -1,14 +1,17 @@
 import React from 'react'
-
+import styles from '../sections/Projects/ProjectsStyle.module.css'
 
 function ProjectCard({src, link, h3, p}) {
   return (
       <a href={link} target="_blank">
-      <img className='hover'
+        <div className={styles.prImgContainer}>
+          <img className={styles.hover}
        src={src} 
        alt={`${h3}Logo`}  />
+        </div>
+      
        <h3>{h3}</h3>
-       <p> {p} </p>
+       <p className={styles.projectP} > {p} </p>
       </a>
   )
 }
